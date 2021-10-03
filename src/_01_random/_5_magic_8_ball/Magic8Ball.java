@@ -32,7 +32,7 @@ public class Magic8Ball {
 			JOptionPane.showMessageDialog(null, "No");
 		}
 	// 5. If the random number is 1
-
+		
 	// -- tell the user "No"
 		else if (randomChoice == 2) {
 			JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
@@ -42,7 +42,9 @@ public class Magic8Ball {
 	// -- tell the user "Maybe you should ask Google?"
 
 	// 7. If the random number is 3
-
+		else if (randomChoice == 3) {
+			JOptionPane.showMessageDialog(null, "It's possible.");
+		}
 	// -- write your own answer
 	}
 }

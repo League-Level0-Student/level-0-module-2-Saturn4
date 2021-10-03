@@ -27,9 +27,32 @@ public class AnimalFarm {
 
 		/* 1. Ask the user which animal they want, then see and hear 
 		 *    the animal they chose using one of the methods below.
+		 *    USe if statements to match the animals names to an animal - me
 		*/			 
-			
+			String input = JOptionPane.showInputDialog(null, "Enter in a name of a farm animal.");
 		/* 2. Make it so that the user can keep entering new animals. */
+			
+			if (input.equalsIgnoreCase("Cow")) {
+				playNoise(mooFile);
+				showImage(cowIcon);
+			}
+			else if (input.equalsIgnoreCase("Duck")) {
+				playNoise(quackFile);
+				showImage(duckIcon);
+			}
+			else if (input.equalsIgnoreCase("Dog")) {
+				playNoise(woofFile);
+				showImage(dogIcon);
+			}
+			else if (input.equalsIgnoreCase("Cat")) {
+				playNoise(meowFile);
+				showImage(catIcon);
+			}
+			else if (input.equalsIgnoreCase("llama")) {
+				playNoise(llamaFile);
+				showImage(llamaIcon);
+			}
+			
 
 	}
 
