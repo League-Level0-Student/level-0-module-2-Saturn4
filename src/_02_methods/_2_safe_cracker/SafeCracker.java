@@ -28,6 +28,8 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
+		 * MAKE a for loop
+		 * look at LN.java for a example
 		 */		
 
 	}
