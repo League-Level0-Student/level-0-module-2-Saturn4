@@ -30,19 +30,28 @@ public class SafeCracker {
 		 * combinations
 		 * MAKE a for loop
 		 * look at LN.java for a example
+		 * make the for loom inside the trycode method
+		 * ASK FOR HELP
 		 */		
-
+		String g = JOptionPane.showInputDialog(null, "What's the code to crack the safe?");
+		
 	}
 	
 	 void tryCode(int guess) {
+		
+		 for ( int sadge = 0; sadge < 10000; sadge++) {
 		System.out.println("trying " + guess);
 
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
-
+		
 		if (guess == secretCode) {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
 			playTheSoundOfSuccess();
 			System.exit(0);
+		
+			
+				
+			}
 		}
 	}
 
