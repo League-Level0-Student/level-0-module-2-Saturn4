@@ -28,18 +28,17 @@ public class SafeCracker {
 		/*
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
-		 * MAKE a for loop
-		 * look at LN.java for a example
-		 * make the for loom inside the trycode method
-		 * ASK FOR HELP
+		 * 
 		 */		
-		String g = JOptionPane.showInputDialog(null, "What's the code to crack the safe?");
 		
+		for ( int s = 0; s < 9999999; s++) {
+			tryCode(s);
+			
 	}
-	
+	}
 	 void tryCode(int guess) {
 		
-		 for ( int sadge = 0; sadge < 10000; sadge++) {
+		 
 		System.out.println("trying " + guess);
 
 		int secretCode = 9999999 - wekncrzpasfdkjhcfjse;
@@ -51,7 +50,7 @@ public class SafeCracker {
 		
 			
 				
-			}
+			
 		}
 	}
 
