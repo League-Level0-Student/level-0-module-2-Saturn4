@@ -36,20 +36,20 @@ void draw() {
     //6. Use an if statement to play a sound (ding) when your dot crosses the finish line (right side of window).
     //   A playSound() method is provided (you have to uncomment the code at the bottom of this program to get this to work)
     if (x > 700) {
-      
+      playSound();
     }
 
 }
 
 
 import ddf.minim.*;
-boolean soundPlayed = false;
+boolean soundPlayed = true;
 void playSound() {
   
   if (canPlaySounds) {
     if (!soundPlayed) {
         Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("ding.wav");
+        AudioSample sound = minim.loadSample("me-gusta.wav");
         sound.trigger();
         soundPlayed = true;
     }
