@@ -9,7 +9,7 @@ public class HowMany {
 	// Change one line of code to fix this program.
 	
 	public static void main(String[] args) {
-		int number = 0;
+		int number = 0; 
 		System.out.println(number);
 	}
 	
@@ -17,5 +17,6 @@ public class HowMany {
 		Random random = new Random();
 		int number = random.nextInt(100)+1;
 		return number;
+	
 	}
 }
