@@ -17,9 +17,10 @@ public class NasaCountdown {
 		// 2. Use a pop-up to ask the user where to start counting from
 		JOptionPane.showInputDialog("Where do we star counting down from?");
 		// 3. Change the countdown to use the new starting point
-		
+		// try looking at soundtrack of life
+		// search things up at this point
 		// 1. Print a countdown from 10 to 0 on the console
-	
+		System.out.println("10, 9, 8, 7, 6, 5, 4, 3, 2, 1");
 			// 4. Use the speak method to hear the countdown.
 		
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);

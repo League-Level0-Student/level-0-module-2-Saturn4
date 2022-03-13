@@ -29,7 +29,7 @@ public class RollerCoaster {
 		}
 		
 		else if (heightAsInt < 42) {
-			JOptionPane.showMessageDialog(null, "You must be at least 42 inches tall to ride the roller coaster pal! G r o w");
+			JOptionPane.showMessageDialog(null, "You must be at least 42 inches tall to ride the roller coaster pal! Grow");
 		}
 		// 6) else print: "You must be at least 42 inches tall to ride the roller coaster pal!"
 		}

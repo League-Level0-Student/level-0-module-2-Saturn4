@@ -29,9 +29,9 @@ public class StarShow {
 		for (int i = 0; i < 30; i++) {
 		robot.setPenWidth(i);
 			// 10. Set the X position of the robot to your X variable
-			robotLocationX(X);
+			robot.setX(X);
 			// 11. Set the Y position of the robot to your Y variable
-			robotLocationY(Y);
+			robot.setY(Y);
 			// 9. Call the drawStar() method with your star size variable
 			drawStar(starSize);
 			// 14. Increase the X position by star size. See Figure 2.
