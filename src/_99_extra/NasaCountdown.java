@@ -15,10 +15,10 @@ import javax.swing.JOptionPane;
 public class NasaCountdown {
 	public static void main(String[] args) throws InterruptedException {
 		// 2. Use a pop-up to ask the user where to start counting from
-		JOptionPane.showInputDialog("Where do we star counting down from?");
-		// 3. Change the count down to use the new starting point
+		String countdown = JOptionPane.showInputDialog("Where do we star counting down from?");
 		
-		// try looking at sound track of life 
+		// 3. Change the count down to use the new starting point
+		// use roller coaster?? ask for help
 		// 1. Print a count down from 10 to 0 on the console
 		System.out.println("10, 9, 8, 7, 6, 5, 4, 3, 2, 1");
 			// 4. Use the speak method to hear the count down.

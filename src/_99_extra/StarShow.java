@@ -16,7 +16,7 @@ public class StarShow {
 		
 			//5. delete this line. you will draw the star again in step 8.
 		// 13. Set the speed to 8
-		robot.setSpeed(50);
+		robot.setSpeed(80);
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
 		int X = 10;
 		// 7. Make a variable to hold the Y position of the Robot and set it to 600
@@ -39,11 +39,11 @@ public class StarShow {
 			// 15. decrease the Y position by star size. See Figure 3.
 			Y-=starSize;
 			// 16. Increase the star size by 20
-			   starSize+=20;
+			  starSize+=20;
 			// 17. Turn the robot 12 degrees
 			   robot.turn(12);
 			// 18. Make each star a different random color like in Figure 4. 
-			robot.setRandomPenColor();
+			 robot.setRandomPenColor();
 		}
 	}
 

@@ -11,7 +11,7 @@ public class RollerCoaster {
 		// 2) Ask the user to enter their height in inches using JOptionPane and set it to the variable heightToRide
 		String heightToRide = JOptionPane.showInputDialog("Enter your height in inches");
 		// Uncomment the line below...
-			// if( heightToRide > 42 ) { }
+			//if( heightToRide > 42 ) { }
 		
 		// Do you see the heightToRide > 42 underlined red? That is because you are comparing a STRING to an INTEGER.
 		
