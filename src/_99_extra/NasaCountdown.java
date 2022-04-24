@@ -16,17 +16,21 @@ public class NasaCountdown {
 	public static void main(String[] args) throws InterruptedException {
 		// 2. Use a pop-up to ask the user where to start counting from
 		String countdown = JOptionPane.showInputDialog("Where do we star counting down from?");
-		
+		int countdownAs = Integer.parseInt(countdown);
 		// 3. Change the count down to use the new starting point
-		// use roller coaster?? ask for help
+	System.out.println(countdownAs);
 		// 1. Print a count down from 10 to 0 on the console
-		System.out.println("10, 9, 8, 7, 6, 5, 4, 3, 2, 1");
+	int i = 0;
+	for (i = 10; i < 10; i--) { 
+		System.out.println(i);
+	}
+		//System.out.println(" 9, 8, 7, 6, 5, 4, 3, 2, 1");
 			// 4. Use the speak method to hear the count down.
-			speak("");
+			// speak("");
 			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
-		Thread.sleep(1000);
+		// Thread.sleep(1000);
 		// 5. when the counting is done, speak "blast off!"
-			speak("blastoff!");
+			// speak("blastoff!");
 	}
 
 static void speak(String words) {

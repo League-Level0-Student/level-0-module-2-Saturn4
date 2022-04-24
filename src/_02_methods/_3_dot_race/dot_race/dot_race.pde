@@ -7,7 +7,7 @@
    * If you cannot play sound on this computer, set canPlaySounds to false.
    * If you are not sure, ask your teacher 
    * *****************/
-  boolean canPlaySounds = true;
+  boolean canPlaySounds = false;
 
 int x = 50;
 
@@ -42,16 +42,16 @@ void draw() {
 }
 
 
-import ddf.minim.*;
-boolean soundPlayed = true;
-void playSound() {
+// import ddf.minim.*;
+ boolean soundPlayed = false;
+ void playSound() {
   
   if (canPlaySounds) {
     if (!soundPlayed) {
-        Minim minim = new Minim(this);
-        AudioSample sound = minim.loadSample("me-gusta.wav");
-        sound.trigger();
-        soundPlayed = true;
+     //   Minim minim = new Minim(this);
+      //  AudioSample sound = minim.loadSample("me-gusta.wav");
+      //  sound.trigger();
+        soundPlayed = false;
     }
   }
   fill(0);

@@ -10,7 +10,7 @@ public class SoundtrackToLife {
 
 		// 1. Adjust this pop-up to find out what mood the user is in.
 		int userMood = JOptionPane.showOptionDialog(null, "What mood are you in?", "Moods", 0,
-				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Happy", "Stressed", "Sad", "Angry"}, null);
+				JOptionPane.INFORMATION_MESSAGE, null, new String[] { "Happy", "Stressed", "Sad", "Angry", "Bored"}, null);
 		
 		// 2. Their answer is stored in the userMood variable. Print it out.
 		System.out.println(userMood);
@@ -27,6 +27,9 @@ public class SoundtrackToLife {
 		}
 		else if (userMood == 3) {
 			playVideo("http://bit.ly/video-for-angry");
+		}
+		else if (userMood == 4) {
+			playVideo("https://youtu.be/jP8iCuXeM3g");
 		}
 
 		

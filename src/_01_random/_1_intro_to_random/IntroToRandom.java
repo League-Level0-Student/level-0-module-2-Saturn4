@@ -30,7 +30,7 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(48);
+			number = ran.nextInt(48);
 			System.out.println(number);
 			
 		}
